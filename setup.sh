@@ -1,6 +1,7 @@
+#!/bin/bash
 
-PATH="~/.config/nvim"
-FILENAME="init.vim"
+file_path=~/.config/nvim
+filename=init.vim
 
-mkdir -p $PATH
-cp $FILENAME $PATH/$FILENAME
+mkdir -p "$file_path"
+cp "$filename" "$file_path/$filename"
